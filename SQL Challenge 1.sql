@@ -63,15 +63,6 @@ VALUES (1, 1, 1, '2021-01-01'),
 (19, 7, 1, '2023-02-10'),
 (20, 4, 4, '2023-03-01');
 
-SELECT *
-FROM sales
-
-SELECT *
-FROM cars
-
-SELECT * 
-FROM salespersons
-
 --1. What are the details of all cars purchased in the year 2022?
 
 SELECT sales.sale_id, sales.purchase_date, cars.make, cars.style, cars.type, cars.cost_$
